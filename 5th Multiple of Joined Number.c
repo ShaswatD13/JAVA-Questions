@@ -12,7 +12,8 @@ int buildNumber(int a, int b, int c, int d){
     int ABCD = a*1000 + b*100 + c*10 + d;
     int res = ABCD*5;
     printf("The number is: %d",res);
-    return res;  
+    return res;
+    
 }
 
 int main() {
