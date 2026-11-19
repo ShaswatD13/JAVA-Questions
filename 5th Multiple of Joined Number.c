@@ -18,6 +18,7 @@ int buildNumber(int a, int b, int c, int d){
 
 int main() {
     int a,b,c,d;
+
     scanf("%d %d %d %d",&a,&b,&c,&d);
     buildNumber(a,b,c,d);
     return 0;
